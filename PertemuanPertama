@@ -1,0 +1,9 @@
+package pertemuanpertama; 
+public class PertemuanPertama {
+    public static void main(String[] args) {
+        System.out.println("Hello world");
+        
+        
+        //ini adalah codingan hari pertama
+        /*hari ini adalah hari pertama kami
+        melakukan coding selama 100 hari kedepan
