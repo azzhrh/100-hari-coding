@@ -1,0 +1,11 @@
+package pertemuankedua;
+public class PertemuanKedua {
+    public static void main(String[] args) {
+        
+        
+    String nama = "Az Zahra";
+    int umur = 18;
+    
+        System.out.println("hai perkenalkan saya");
+        System.out.println(nama);
+        System.out.println(umur);
