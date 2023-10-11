@@ -1,0 +1,18 @@
+package pertemuanke3;
+public class PertemuanKe3 {
+    public static void main(String[] args) {
+        byte umur = 18;
+        int umur2 = 18;
+        short angka = 21;
+        long tinggi = 17;
+        float berat = 2.2f;
+        double tinggi2 = 1.2;
+        char nilai = 'A';      
+        
+        System.out.println("umur :" + umur);
+        System.out.println("umur2 :"+ umur2);
+        System.out.println("angka :"+ angka);
+        System.out.println("tinggi :"+ tinggi);
+        System.out.println("berat :"+ berat);
+        System.out.println("tinggi2 :"+ tinggi2);
+        System.out.println("nilai :"+ nilai);
