@@ -1,0 +1,13 @@
+package pertemuanke4;
+public class PertemuanKe4 {
+    public static void main(String[] args) {
+        char huruf = 'A';
+        char nilai = '1';
+        
+        boolean benar = true;
+        boolean salah = false;
+        
+        System.out.println(huruf);
+        System.out.println(nilai);
+        System.out.println(benar);
+        System.out.println(salah);
