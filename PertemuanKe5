@@ -1,0 +1,7 @@
+package pertemuanke5;
+public class PertemuanKe5 {
+    public static void main(String[] args) {
+        short angka = 21;
+        int angka2 = 12;
+        
+        System.out.println(angka + angka2);
