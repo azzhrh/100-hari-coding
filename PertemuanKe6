@@ -1,0 +1,11 @@
+package pertemuanke6;
+public class PertemuanKe6 {
+    public static void main(String[] args) {
+        
+        short angka = 100;
+        short angka2 = 25;
+        int angka3 = 20;
+        int angka4 = -15;
+        int angka5 = 10;
+        
+        System.out.println(angka % angka2 + angka3 - angka4 % angka5);
