@@ -1,0 +1,11 @@
+package pertemuanke7;
+public class PertemuanKe7 {
+    public static void main(String[] args) {
+        int angka = 2;
+        int angka2 = 1;
+        
+        System.out.println(angka + angka2);
+        System.out.println(angka - angka2);
+        System.out.println(angka* angka2);
+        System.out.println(angka % angka2);
+    }
