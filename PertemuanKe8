@@ -1,0 +1,10 @@
+package pertemuanke8;
+public class PertemuanKe8 {
+    public static void main(String[] args) {
+        int angka = 2;
+        int angka2 = 3;
+        
+        System.out.println(angka > angka2);
+    }
+    
+}
