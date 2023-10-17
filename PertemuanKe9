@@ -1,0 +1,8 @@
+package pertemuanke9;
+public class PertemuanKe9 {
+    public static void main(String[] args) {
+        short umur = 18;
+        System.out.println("umur saya adalah " + umur);
+    }
+    
+}
