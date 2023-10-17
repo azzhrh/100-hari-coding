@@ -1,0 +1,10 @@
+package pertemuanke9;
+public class PertemuanKe9 {
+    public static void main(String[] args) {
+        byte umur = 18;
+        byte umur2 = 18;
+        System.out.println(umur <= umur2);
+        
+    }
+    
+}
