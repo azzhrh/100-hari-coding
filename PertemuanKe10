@@ -1,0 +1,11 @@
+package pertemuanke10;
+public class PertemuanKe10 {
+    public static void main(String[] args) {
+        float berat = 40.1f;
+        double tinggi = 1.22;
+        
+        System.out.println(berat);
+        System.out.println(tinggi);
+    }
+    
+}
