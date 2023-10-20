@@ -1,0 +1,17 @@
+package pertemuanke12;
+import java.util.Scanner;
+public class PertemuanKe12 {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        
+        System.out.println("nama: ");
+        String nama = input.nextLine();
+        System.out.println("kelas :");
+        String kelas = input.nextLine();
+        
+        System.out.println(nama);
+        System.out.println(kelas);
+    }
+    
+}
