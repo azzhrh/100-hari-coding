@@ -1,0 +1,11 @@
+package pertemuanke13;
+public class PertemuanKe13 {
+    public static void main(String[] args) {
+        int nilai = 2;
+        
+        System.out.println(nilai==nilai);
+        System.out.println(nilai!=nilai);
+        System.out.println(nilai=nilai);
+    }
+    
+}
