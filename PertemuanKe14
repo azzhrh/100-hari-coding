@@ -1,0 +1,23 @@
+package pertemuanke14;
+public class PertemuanKe14 {
+    public static void main(String[] args) {
+        byte penjumlahan = 5;
+        penjumlahan += 5;
+        byte pengurangan = 10;
+        pengurangan -= 5;
+        byte perkalian = 2;
+        perkalian *= 3;
+        byte pembagian = 15;
+        pembagian /= 5;
+        byte bagihasil= 20;
+        bagihasil %= 5;
+        
+        System.out.println(penjumlahan );
+        System.out.println(pengurangan);
+        System.out.println(perkalian);
+        System.out.println(pembagian);
+        System.out.println(bagihasil);
+        
+    }
+    
+}
