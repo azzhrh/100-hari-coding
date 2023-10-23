@@ -1,0 +1,17 @@
+package pertemuanke15;
+import java.math.BigInteger;
+public class PertemuanKe15 {
+    public static void main(String[] args) {
+        
+        BigInteger a,b,angka,angka1,angka2,angka3;
+        a = new BigInteger("12345678910");
+        b = new BigInteger("10987654321");
+        angka = a.add(a); //penjumlahan
+        angka1 = a.subtract(a); //pengurangan
+        angka2 = a.multiply(a); //perkalian
+        angka3 = a.divide(a); //pembagian
+        System.out.println(angka+"\n"+angka1+"\n"+angka2+"\n"+angka3);   
+        
+    }
+    
+}
