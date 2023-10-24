@@ -1,0 +1,19 @@
+package pertemuanke16;
+import java.math.BigDecimal;
+public class PertemuanKe16 {
+    public static void main(String[] args) {        
+              
+        BigDecimal angka1 = new BigDecimal (4.6456327386);
+        BigDecimal angka2 = new BigDecimal (7.8676454);
+        BigDecimal angka3 = new BigDecimal (3.7588);
+        
+        BigDecimal a = angka1.add(angka3);
+        BigDecimal b = angka2.subtract(a);
+        BigDecimal c = angka3.multiply(a);
+        
+        System.out.println(angka1 + "\n" + angka2 + "\n" + angka3); 
+                
+    }
+    
+}
+   
