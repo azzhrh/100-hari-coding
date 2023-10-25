@@ -1,0 +1,13 @@
+package pertemuanke17;
+public class PertemuanKe17 {
+    public static void main(String[] args) {
+        String angka = "21";
+        
+        int umur1 = Integer.parseInt(angka);
+        byte umur2 = Byte.parseByte(angka);
+        
+        System.out.println("nilai\t:"+ umur1);
+        System.out.println("nilai\t:"+ umur2);
+    }
+    
+}
