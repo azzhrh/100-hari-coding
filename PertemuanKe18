@@ -1,0 +1,15 @@
+package pertemuanke18;
+public class PertemuanKe18 {
+    public static void main(String[] args) {
+        int nilai = 22;
+        byte nilai2 = 12;
+           
+        String nilaiString = Integer.toString(nilai);
+        String nilai2String = Byte.toString(nilai2);
+        
+        System.out.println("Nilai\t:"+nilaiString);
+        System.out.println("Nilai\t:"+nilai2String);
+        
+    }
+    
+}
