@@ -1,0 +1,22 @@
+package pertemuanke19;
+public class PertemuanKe19 {
+    public static void main(String[] args) {
+        //Deklarasi variabel
+        String alamat;
+        byte umur;
+           
+        //Inisialisasi Variabel
+        String nama = "Az Zahra";
+        int angka = 21;
+        float berat =40;
+        char inisial = 'p';
+        System.out.println("Nama :"+nama+"\nangka :"+angka+"\nberat :"+berat+"\ninisial :"+inisial);
+        
+        //Update Variabel
+        alamat = "Sulawesi Selatan";
+        umur = 18;
+        System.out.println("alamat :"+alamat+ "\numur :"+umur);
+        
+    }
+    
+}
