@@ -1,0 +1,13 @@
+package pertemuanke20;
+public class PertemuanKe20 {
+    public static void main(String[] args) {
+        //mendeklarasikan variabel 
+        int hasil = 111;
+        byte hasilAkhir = 11;
+        
+        System.out.println("hasil :"+hasil);
+        System.out.println("hasilAkhir :"+hasilAkhir);
+                                     
+    }
+    
+}
