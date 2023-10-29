@@ -1,0 +1,16 @@
+package pertemuanke21;
+import java.util.Scanner;
+public class PertemuanKe21 {
+    public static void main(String[] args) {
+        //Input output dari console
+        Scanner a = new Scanner (System.in);
+        System.out.println("masukkan nama :");
+        String nama = a.next();
+        System.out.println("masukkan angka :");
+        int angka = a.nextInt();
+        
+        System.out.println("memasukkan nama :"+nama);
+        System.out.println("memasukkan angka :"+angka);
+    }
+    
+}
