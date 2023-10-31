@@ -1,0 +1,16 @@
+package pertemuanke23;
+public class PertemuanKe23 {
+    public static void main(String[] args) {
+        int angka = 20;
+        angka += angka; //penjumlahan
+        System.out.println(angka);
+        angka -=30; //pengurangan
+        System.out.println(angka);
+        angka *=10; //perkalian
+        System.out.println(angka);
+        angka %= 40; //bagihasil
+        System.out.println(angka);
+                        
+    }
+    
+}
