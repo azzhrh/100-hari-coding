@@ -1,0 +1,18 @@
+package pertemuanke24;
+public class PertemuanKe24 {
+    public static void main(String[] args) {
+        int angka = 2;
+        int angka2 = 4;
+        
+        boolean a = (angka == angka2);//sama
+        boolean b = (angka!= angka2);//tidak sama
+        boolean c = (angka < angka2);//lebihkecil
+        boolean d = (angka > angka2);//lebih besar
+        
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+    }
+    
+}
