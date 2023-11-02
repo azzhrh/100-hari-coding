@@ -1,0 +1,16 @@
+package pertemuanke25;
+public class PertemuanKe25 {
+    public static void main(String[] args) {
+        boolean a= true;
+        boolean b = false;
+        
+        boolean c = a && b;
+        boolean d = a != b;
+        boolean e = a || b;
+        
+        System.out.println( c);
+        System.out.println(d);
+        System.out.println(e);
+    }
+    
+}
