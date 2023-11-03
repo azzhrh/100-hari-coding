@@ -1,0 +1,15 @@
+package pertemuanke26;
+public class PertemuanKe26 {
+    public static void main(String[] args) {
+        int umur =18;
+        int umur1 = 19;
+        int umur2 = 20;
+        
+        if (umur == 18 && umur1 > umur2) {
+            System.out.println("anda sudah remaja");
+        }else{
+            System.out.println("anda akan memasuki usia dewasa");                                                
+        }
+    }
+    
+}
