@@ -1,0 +1,12 @@
+package pertemuanke27;
+public class PertemuanKe27 {
+    public static void main(String[] args) {
+        int angka = 12;
+        if (angka != 11) {
+            System.out.println("lulus");
+        } else {
+            System.out.println("tidak lulus");
+        }
+    }
+    
+}
