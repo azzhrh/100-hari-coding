@@ -1,0 +1,16 @@
+package hari.pkg28;
+import java.util.Scanner;
+public class Hari28 {
+    public static void main(String[] args) {
+        int nilai =2;
+        
+        if (nilai>5) {
+            System.out.println("nilai lebih besar 5");
+        }else if (nilai<8) {
+            System.out.println("nilai lebih kecil 8");
+        }else{
+            System.out.println("nilai");
+        }
+        }
+        
+    }
