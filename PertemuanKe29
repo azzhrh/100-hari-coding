@@ -1,0 +1,13 @@
+package pertemuanke29;
+public class PertemuanKe29 {
+    public static void main(String[] args) {
+        int nilai = 20;
+        
+        String angka = (nilai < 10) ? "lebih kecil dari 10" : "lebih dari atau sama dengan 10";
+        System.out.println(angka);
+        String angka1 = (nilai > 45) ? "lebih besar dari 45" : "kurang dari atau sama dengan 45";
+        System.out.println(angka1);
+        
+    }
+    
+}
