@@ -1,0 +1,38 @@
+package pertemuanke30;
+import java.util.Scanner;
+public class PertemuanKe30 {
+    public static void main(String[] args) {
+        //switch-case
+        int makul = 8;
+        switch (makul) {
+            case 1:
+                System.out.println("DDP");
+                break;
+            case 2 :
+                System.out.println("Pancasila");
+                break;
+            case 3 :
+                System.out.println("MTK");
+                break;
+            case 4 :
+                System.out.println("Fisika");
+                break;
+            case 5 :
+                System.out.println("PSTI");
+                break;
+            case 6 :
+                System.out.println("BhsIndonesia");
+                break;
+            case 7 :
+                System.out.println("AgamaIslam");
+                break;
+            case 8 :
+                System.out.println("PPKN");
+                break;
+            default:
+        }
+        
+        
+    }
+    
+}
