@@ -1,0 +1,17 @@
+package pertemuanke31;
+import java.util.Scanner;
+public class PertemuanKe31 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        int nilai;
+        
+        System.out.print("nilai di bawah 20 :");
+        nilai = input.nextInt();
+        
+        for (int i =nilai; i <= 20;i++) {
+            System.out.println(i);
+        }
+        
+    }
+    
+}
