@@ -1,0 +1,24 @@
+package pertemuanke32;
+import java.util.Scanner;
+public class PertemuanKe32 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        
+        int nilai = 10;
+        System.out.print("masukkan nilai pertama :");
+        System.out.println();
+        nilai = input.nextInt();
+        
+        int nilai2 = 20;
+        System.out.print("masukkan nilai ke dua");
+        System.out.println();
+        nilai2 = input.nextInt();
+        
+        for (int i = nilai; i >= 1; i--) {
+            System.out.println(i);
+        }
+        
+        
+    }
+    
+}
