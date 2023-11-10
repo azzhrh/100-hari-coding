@@ -1,0 +1,22 @@
+package pertemuanke33;
+import java.util.Scanner;
+public class PertemuanKe33 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int a,b;
+        
+        System.out.print("nilai pertama :");
+        a = input.nextInt();
+        for (a = 1; a <= 10; a +=2) {
+            System.out.println(a);
+            
+        System.out.print("nilai kedua :");
+        b = input.nextInt();
+        for (b = 10; b>= 1; b -=3) {
+            System.out.println(b);
+  
+        }
+        } 
+    }
+   
+}
