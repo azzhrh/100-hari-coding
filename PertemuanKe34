@@ -1,0 +1,10 @@
+package pertemuanke34;
+public class PertemuanKe34 {
+    public static void main(String[] args) {
+        int []  nilai = {1, 2, 3, 4, 5};
+        for  (int a : nilai) {
+            System.out.println(a);
+        }
+    }
+    
+}
