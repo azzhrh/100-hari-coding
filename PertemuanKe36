@@ -1,0 +1,13 @@
+package pertemuanke36;
+import java.util.Scanner;
+public class PertemuanKe36 {
+    public static void main(String[] args) {
+         Scanner input = new Scanner(System.in);
+         System.out.print("Masukkan bilangan :");
+         
+         int bilangan = input.nextInt();
+         System.out.println("memasukkan :" + bilangan);
+        input.close();
+    }
+    
+}
