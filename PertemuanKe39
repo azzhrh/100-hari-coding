@@ -1,0 +1,20 @@
+package pertemuanke39;
+import java.util.Scanner;
+public class PertemuanKe39 {
+    public static void main(String[] args) {
+        // Membuat objek Scanner
+        Scanner input = new Scanner(System.in);
+        
+        // Memasukkan input 
+        System.out.print("Masukkan nilai int: ");
+        int nilai = input.nextInt();
+        
+        // Menampilkan nilai yang diinputkan
+        System.out.println("Anda memasukkan: " + nilai);
+        
+        // Menutup scanner
+        input.close();
+    }
+}
+    
+
