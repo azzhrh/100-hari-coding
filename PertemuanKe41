@@ -1,0 +1,18 @@
+package pertemuanke41;
+import java.util.Scanner;
+public class PertemuanKe41 {
+    public static void main(String[] args) {
+    int Ganjil = 0;
+    int Genap = 0;
+
+    for (int i = 1; i <= 10; i++) {
+        if (i % 2 == 0) {
+            Genap += i;
+        } else {
+            Ganjil += i;
+        }
+  }
+        System.out.println("Jumlah bilangan ganjil : " + Ganjil);
+        System.out.println("Jumlah bilangan genap : " + Genap);
+    }
+}
