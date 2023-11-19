@@ -1,0 +1,18 @@
+package pertemuanke42;
+import java.util.Scanner;
+public class PertemuanKe42 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int a, b, hasil;
+        
+        System.out.print("a :");
+        a = input.nextInt();
+        System.out.print("b :");
+        b = input.nextInt();
+        
+        hasil = a*b;
+        System.out.println(a + b);
+        
+            
+        }
+    }
