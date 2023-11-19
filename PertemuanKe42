@@ -1,18 +1,18 @@
-package pertemuanke42;
+package hari42;
 import java.util.Scanner;
-public class PertemuanKe42 {
+public class Hari42 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int a, b, hasil;
+        int panjang, luas, hasil;
         
-        System.out.print("a :");
-        a = input.nextInt();
-        System.out.print("b :");
-        b = input.nextInt();
+        System.out.print("panjang :");
+        panjang = input.nextInt();
         
-        hasil = a*b;
-        System.out.println(a + b);
+        System.out.print("luas :");
+        luas = input.nextInt();
         
-            
-        }
+        hasil = panjang*luas;
+        System.out.println("hasilnya :" + panjang * hasil );
     }
+    
+}
