@@ -3,16 +3,16 @@ import java.util.Scanner;
 public class Hari42 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int panjang, luas, hasil;
+        int panjang, lebar, luas;
+        
+        System.out.print("luas :");
+        lebar = input.nextInt();
         
         System.out.print("panjang :");
         panjang = input.nextInt();
         
-        System.out.print("luas :");
-        luas = input.nextInt();
-        
-        hasil = panjang*luas;
-        System.out.println("hasilnya :" + panjang * hasil );
+        luas = panjang*lebar;
+        System.out.println("hasilnya :" + luas );
     }
     
 }
