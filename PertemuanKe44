@@ -1,0 +1,32 @@
+package hari44;
+import java.util.Scanner;
+public class Hari44 {
+    public static void main(String[] args) {
+        Scanner i = new Scanner(System.in);
+        int tugas1, tugas2, tugas3, tugas4, tugas5, rata;
+        
+        System.out.print("Nilai Tugas 1 : ");
+        tugas1 = i.nextInt();        
+        System.out.print("Nilai Tugas 2 : ");
+        tugas2 = i.nextInt();
+        System.out.print("Nilai Tugas 3 : ");
+        tugas3 = i.nextInt();
+        System.out.print("Nilai Tugas 4 : ");
+        tugas4 = i.nextInt();
+        System.out.print("Nilai Tugas 5 : ");
+        tugas5 = i.nextInt();
+        System.out.print("Nilai Rata-Rata : ");       
+        rata =(tugas1+tugas2+tugas3+tugas4+tugas5)/5;
+        if(rata >= 90 && rata <= 100){
+            System.out.println("Mendapatkan Nilai A ");
+        }else if(rata > 80 && rata < 90){
+            System.out.println("Mendapatkan Nilai B ");
+        }else if(rata >= 70 && rata < 80){
+            System.out.println("Mendapatkan Nilai C ");
+        }else if(rata >= 60 && rata < 70){
+            System.out.println("Mendapatkan Nilai D ");
+        }else if(rata < 60){
+            System.out.println("Mendapatkan Nilai E ");
+        }       
+    }    
+}
