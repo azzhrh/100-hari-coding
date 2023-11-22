@@ -1,0 +1,19 @@
+package Hari45;
+import java.util.Scanner;
+public class Hari45 {
+    public static void main(String[] args) {
+        int i = 3;
+        
+        switch (i) {
+            case 1 :
+                System.out.println("satu");
+                break;
+            case 2 :
+                System.out.println("dua");
+                break;
+            default :
+                System.out.println("bukan dua duanya");
+                break;            
+        }
+    }
+}
