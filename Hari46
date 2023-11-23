@@ -1,0 +1,24 @@
+package Hari46;
+import java.util.Scanner;
+public class Hari46 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("nilai awal :");
+        int bilanganAwal = input.nextInt();
+        
+        System.out.print("nilai akhir :");
+        int bilanganAkhir =input.nextInt();
+        
+        System.out.print("yang habis di bagi ");
+        int bilanganYangMuncul = input.nextInt();
+        
+        for (int i = bilanganAwal;i<=bilanganAkhir;i++) {
+            if (i%2==0 && i%3 ==0) {
+                System.out.println(i);
+            
+            }
+        }
+    }
+    
+}
