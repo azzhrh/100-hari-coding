@@ -3,29 +3,20 @@ import java.util.Arrays;
 public class Hari47 {
     public static void main(String[] args) {
          System.out.println("Soal 1 Membuat nama hewan");
-        String [] hewan ={"kucing","Kambing ","kelinci ","singa","buaya","sapi","beruang","panda","semut","ular"};
+        String [] hewan ={"kucing","Kambing","kelinci","singa","buaya","sapi","beruang","panda","semut","ular"};
         for(int i =0 ; i < hewan.length; i++){
             System.out.println("Hewan - "+i +" = "+hewan[i]);
         }
         
         
-        System.out.println("Soal 2 Menjumlahkan array");
+        System.out.println("Soal 2 Menjumlahkan array");      
         int [] angka = {1,3,5,7,9,11,13,15,17,19};
-        System.out.println("Array Pertama "+Arrays.toString(angka));
-        
-        int [] angka1 = {3,5,7,9,15,17,21,25,23,27};
-        System.out.println("Array ke2 "+Arrays.toString(angka1)+"\n------------------------------+");
-        for (int i = 0; i < angka.length; i++) {
-            angka [i]= angka[i] + angka1[i];
-        }
-        System.out.println("hasil penjumlahan = "+Arrays.toString(angka)+"\n");
-        
-        int [] kawai = {1,3,5,7,9,11,13,15,17,19};
-        System.out.println("angka ganjil \n"+Arrays.toString(kawai));
+        System.out.println("angka ganjil \n"+Arrays.toString(angka));
         int jumlah = 0;
-        for (int i = 0; i < kawai.length; i++) {
-            jumlah += kawai[i];
+        for (int i = 0; i < angka.length; i++) {
+            jumlah += angka[i];
         }
         System.out.println("hasil jumlah = "+jumlah);   
     }
 }
+
